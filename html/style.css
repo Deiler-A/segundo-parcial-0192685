@@ -1,46 +1,26 @@
-body {
-    font-size: 15px;
-}
-
 .encabezado {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 15px;
+    max-width: 1050px;
+    margin: auto;
 }
 
 .links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 10px;
-}
-
-.links a {
-    text-decoration: none;
-    color: black;
+    gap: 30px;
 }
 
 .imagenes {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 20px;
-}
-
-.imagenes img {
-    width: 200px;
-    height: auto;
-}
-
-#android {
-    width: auto;
-    margin-right: auto;
-}
-
-#IOS {
-    width: auto;
-    margin-right: auto;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 @media (min-width: 768px) {
