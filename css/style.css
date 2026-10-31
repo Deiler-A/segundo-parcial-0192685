@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .links {
@@ -12,6 +12,41 @@
     gap: 10px;
 }
 
-@media (min-witdth: 768px) {
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagenes img {
+    width: 200px;
+    height: auto;
+}
+
+#android {
+    width: auto;
+    margin-right: auto;
+}
+
+#IOS {
     
+}
+
+@media (min-width: 768px) {
+
+    .encabezado {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links {
+        flex-direction: row;
+        gap: 15px;
+    }
 }
