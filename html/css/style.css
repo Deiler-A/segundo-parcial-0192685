@@ -1,3 +1,7 @@
+body {
+    font-size: 15px;
+}
+
 .encabezado {
     display: flex;
     flex-direction: column;
@@ -35,7 +39,8 @@
 }
 
 #IOS {
-    
+    width: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 768px) {
